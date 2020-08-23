@@ -1,0 +1,10 @@
+<!-- for use with winsw -->
+<service>
+  <id>acudsvc</id>
+  <name>Auto Camera Uploads Download Service</name>
+  <description>Auto Camera Uploads Download Service</description>
+  <executable>C:\acud\bin\env\Scripts\python.exe</executable>
+  <workingdirectory>C:\acud\bin</workingdirectory>
+  <arguments>batch_xfer.py</arguments>
+  <stopparentprocessfirst>true</stopparentprocessfirst> <!-- workaround see https://github.com/winsw/winsw/pull/487 -->
+</service>

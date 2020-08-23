@@ -1,0 +1,14 @@
+{
+  "accounts": [
+    {
+      "token": "<token>",
+      "dropbox_path": "/Camera Uploads",
+      "local_path": "<path>"
+    },
+    {
+      "token": "<token>",
+      "dropbox_path": "/Camera Uploads",
+      "local_path": "<path>"
+    }
+  ]
+}
